@@ -1,0 +1,20 @@
+Vinay Suri
+
+I have compiled these on a linux machine running Ubuntu.
+
+For Reference, to compile:
+gcc -o <file> <file>.c -lglut -lGLU -lGL -lm -lGL
+
+Make sure Grass.bmp and sky.bmp are in the same directory as sports.c
+ 
+ Controls:
+ - To move person 1: ^-w <-a v-s >-d
+ - To move the ball: ^-i <-j v-k >-l
+ - Record functions:
+	z - Start
+	x - Stop
+	c - Load
+	v - Reset
+	b - Playback
+	n - Save
+ - To toggle on/off syncronize: m
